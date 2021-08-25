@@ -517,6 +517,7 @@ button {
 }
 
 .form-control {
+    width:80%;
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
 }
