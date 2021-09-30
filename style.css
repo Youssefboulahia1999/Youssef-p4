@@ -93,7 +93,6 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -518,6 +517,8 @@ button {
 
 .form-control {
     width:80%;
+    margin-left: auto;
+    margin-right: auto;
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
 }
@@ -723,7 +724,8 @@ div.info1{
     border-radius: 25px;
     border: black solid 2px;    
     align-items:center;
-    text-align:center;}
+    text-align:center;
+margin-bottom: 20px;}
 
 div.info{
 
@@ -788,7 +790,7 @@ h3.titre{ color:white;
     }
     
     .black-background {
-        background-color: #FFA26C;
+        background-color: #953D03;
         padding: 40px 40px 40px 40px;
     }
     
@@ -814,10 +816,12 @@ h3.titre{ color:white;
         color: white;
     }
     .tc-white {
-        color: #FFA26C!important;
+        color:white!important;
+        background-color: #953D03;
     }
     .tc-whitep {
-        color:white;
+        background-color: #953D03;
+        color:white!important;
     }
 
     .btn-atomic-tangerine {
@@ -977,6 +981,7 @@ padding-top:10px;}
         text-align: left;
         padding-left: 15px;
         width: 100%;
+
     }
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
